@@ -1,0 +1,50 @@
+.admin_nav{
+    width: 100%;
+    height: 100px ;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid greenyellow;
+}
+.admin_nav_img{
+    height: 70px;
+}
+
+.admin_nav_right{
+    display: inline-block;
+    animation: slideRight 2s linear forwards;
+    white-space: nowrap;
+    overflow: hidden;
+    margin-right: 200px;
+}
+
+
+@keyframes slideRight {
+    0% {
+      transform: translateX(-100%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(50%);
+      opacity: 1;
+    }
+  }
+
+  .admin_body{
+    width: 100%;
+    height: 100%;
+    display: flex;
+  }
+
+  .admin_sidebar{
+    width: 15%;
+    height: 100%;
+    border-right: 1px solid greenyellow; 
+  }
+
+  .admin_content{
+    width: 85%;
+  overflow: scroll;
+
+  }

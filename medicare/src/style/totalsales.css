@@ -1,0 +1,27 @@
+.sales-container {
+    text-align: center;
+    padding: 2rem;
+    background: #f5f7fa;
+  }
+  
+  .sales-card {
+    display: inline-block;
+    background: linear-gradient(to right, #4facfe, #00f2fe);
+    color: white;
+    padding: 2rem 3rem;
+    border-radius: 16px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  }
+  
+  .amount {
+    font-size: 3rem;
+    font-weight: bold;
+    margin: 0;
+  }
+  
+  .note {
+    font-size: 1.1rem;
+    margin-top: 0.5rem;
+    color: rgba(255, 255, 255, 0.9);
+  }
+  

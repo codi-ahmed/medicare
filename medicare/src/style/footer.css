@@ -1,0 +1,109 @@
+.footer_container{
+
+    height: 400px;
+    border-top: 1px solid greenyellow;
+}
+
+.footer_base{
+    border-top: 1px solid white;
+    background-color: greenyellow;
+height: 60px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.footer_main{
+    display: flex;
+    flex-direction: row;
+    height: 340px;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer_company_section{
+    margin-left: 40px;
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+
+}
+
+.footer_company_social{
+    display: flex;
+    gap: 15px;
+}
+
+.footer_company_social a {
+    font-size: 24px;      
+    color: #555;         
+    margin: 0 10px;       
+    transition: all 0.3s ease; 
+    text-decoration: none; 
+}
+  
+  .footer_company_social a:hover {
+    color: #21D192;       
+    transform: scale(1.2);
+  }
+
+  .footer_link_section{
+    margin-right: 150px;
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    justify-content: center;
+    align-items: center;
+  }
+  .footer-link {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    transition: 0.3s;
+  }
+  
+
+  
+
+  .footer-link.active {
+    color: white;
+    transform: scale(1.1);
+  }
+
+  .footer_info_section{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    
+  }
+.info_information{
+    display: flex;
+    gap: 5px;
+}
+.footer_info_information{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.footer_info_search {
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+  }
+  
+  
+  .footer_info_search input {
+    padding: 10px 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+    outline: none;
+    transition: all 0.3s ease;
+  }
+  
+  .footer_info_search input:focus {
+    border-color: #21D192;
+    box-shadow: 0 0 5px rgba(33, 209, 146, 0.5); 
+  }
+  

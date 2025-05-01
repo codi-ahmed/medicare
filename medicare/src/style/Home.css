@@ -1,0 +1,122 @@
+.home_body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.banner_section{
+    width: 100%;
+}
+.banner_img_home{
+    width: 100%;
+    height: 600px;
+}
+
+.company_section{
+    width: 100%;
+    height: 500px;
+    text-align: center;
+    margin-top: 50px;
+   
+}
+.company-section-header{
+    margin-left: 50px;
+}
+
+
+.anoucement_container {
+    width: 100%;
+    height: 150px;
+    background-color: rgb(237, 237, 237);
+    margin-bottom: 50px;
+    border-radius: 15px;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  
+
+  .first_section,
+  .second_section,
+  .third_section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 25%;
+    cursor: pointer;
+  }
+  
+  .first_section {
+    border-right: 0.5px solid black;
+  }
+  
+  .second_section {
+    border-right: 0.5px solid black;
+    width: 35%;
+  }
+  
+  .icon_div {
+    font-size: 24px;
+    color: green;
+  }
+  
+  /* Animation keyframes */
+  @keyframes rotateIcon {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(-360deg); }
+  }
+  
+  @keyframes moveTruck {
+    0% { transform: translateX(0); opacity: 1; }
+    100% { transform: translateX(30px); opacity: 0; }
+    
+  }
+  
+  @keyframes shakePhone {
+    0% { transform: translate(0, 0); }
+    25% { transform: translate(2px, 2px); }
+    50% { transform: translate(-2px, -2px); }
+    75% { transform: translate(2px, -2px); }
+    100% { transform: translate(0, 0); }
+  }
+
+  .first_section:hover h5,
+  .first_section:hover p {
+    color: green;
+  }
+  
+  .first_section:hover .icon_div i {
+    animation: rotateIcon 3s linear infinite;
+  }
+  
+  .second_section:hover h5,
+  .second_section:hover p {
+    color: green;
+  }
+  
+  .second_section:hover .icon_div i {
+    animation: moveTruck 1s ease-in-out forwards infinite;
+  }
+  
+  .third_section:hover .icon_div i {
+    animation: shakePhone 0.5s ease-in-out infinite;
+  }
+  
+.icon_div{
+    font-size: 24px;      
+    color: green;  
+}
+
+.info_section h5{
+font-size: larger;
+}
+
+.product_section{
+  width: 100%;
+  margin-bottom: 50px;
+  min-height: 500px;
+}
